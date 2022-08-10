@@ -1,0 +1,32 @@
+Actions Folder = place for action files (if(isset)) is a action file, file that gatheres all the data 
+
+Assets Folder = all CSS/images/javascript files third party files 
+
+Classes Folder = all class files  (methods)
+
+Views Folder = all view/display files (mostly html and boostrap)
+
+---------------------------------------------------------------------------
+
+include       = inclue the file without checking if there are errors
+
+include_once  = inlcude the file once only, cancel if it is already included, does not check for errors
+
+require       = inludes the files and check if there are errors
+
+require_once  = includes the file once only, cancel if it is already included and also check for errors
+
+---------------------------------------------------------------------------
+
+4 MAJOR FUNCTION IN SQL
+
+    C = CREATE          ~~ INSERT INTO ~~ REGISTER
+    R = RETRIEVE/READ   ~~ SELECT ~~ LOGIN, DASHBOARD, DISPLAY OF PROFILE
+    U = UPDATE          ~~  ~~ EDIT ACCOUNT, EDIT PROFILE
+    D = DELETE          ~~  ~~ DELETE ACCOUNT, DELETE COMMENT
+
+---------------------------------------------------------------------------
+
+FLOW of the APP:
+
+view --> action --> class --> database 
